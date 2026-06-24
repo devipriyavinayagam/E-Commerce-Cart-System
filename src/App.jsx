@@ -12,7 +12,7 @@ import Navbar from './Navbar.jsx'
 function App() {
   return (
     <CartProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="/E-Commerce-Cart-System/">
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
