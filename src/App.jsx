@@ -12,7 +12,7 @@ import Navbar from './component/Navbar'
 function App() {
   return (
     <CartProvider>
-    <BrowserRouter basename="/E-Commerce-Cart-System/">
+    <BrowserRouter basename="/E-Commerce-Cart-System">
       <Navbar />
       <h1 STYLE ={{color:'purple'}}> TESTING </h1>
       <Routes>
