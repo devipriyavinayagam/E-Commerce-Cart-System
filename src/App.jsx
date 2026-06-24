@@ -14,7 +14,7 @@ function App() {
     <CartProvider>
     <BrowserRouter basename="/E-Commerce-Cart-System/">
       <Navbar />
-      <h1> TESTING </h1>
+      <h1 STYLE ={{color:'purple'}}> TESTING </h1>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
