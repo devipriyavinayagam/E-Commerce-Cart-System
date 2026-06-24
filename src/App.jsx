@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Home from "./Home.jsx"
+import Home from "./pages/Home"
 import About from './About.jsx'
 import Contact from './Contact.jsx'
 import Product from './Product.jsx'
 import Cart from './Cart.jsx'
 import { CartProvider } from './CartContext'
-import Navbar from './Navbar.jsx'
+import Navbar from './component/Navbar'
 
 function App() {
   return (
